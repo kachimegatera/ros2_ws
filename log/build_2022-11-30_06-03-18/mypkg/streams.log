@@ -1,0 +1,22 @@
+[0.752s] Invoking command in '/home/kachi/ros2_ws/src/mypkg': PYTHONPATH=/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/kachi/ros2_ws/build/mypkg/build install --prefix /home/kachi/ros2_ws/install/mypkg --record /home/kachi/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[1.028s] running egg_info
+[1.029s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.030s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.030s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.031s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.031s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.091s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.092s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.092s] running build
+[1.092s] running build_py
+[1.092s] running install
+[1.093s] running install_lib
+[1.094s] running install_data
+[1.094s] running install_egg_info
+[1.096s] removing '/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[1.096s] Copying ../../build/mypkg/mypkg.egg-info to /home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[1.098s] running install_scripts
+[1.117s] Installing listener script to /home/kachi/ros2_ws/install/mypkg/lib/mypkg
+[1.117s] Installing talker script to /home/kachi/ros2_ws/install/mypkg/lib/mypkg
+[1.117s] writing list of installed files to '/home/kachi/ros2_ws/build/mypkg/install.log'
+[1.164s] Invoked command in '/home/kachi/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/kachi/ros2_ws/build/mypkg/build install --prefix /home/kachi/ros2_ws/install/mypkg --record /home/kachi/ros2_ws/build/mypkg/install.log --single-version-externally-managed

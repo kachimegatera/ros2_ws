@@ -1,0 +1,36 @@
+[0.694s] Invoking command in '/home/kachi/ros2_ws/src/mypkg': PYTHONPATH=/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/kachi/ros2_ws/build/mypkg/build install --prefix /home/kachi/ros2_ws/install/mypkg --record /home/kachi/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[0.891s] running egg_info
+[0.892s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.892s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.893s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.894s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.894s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.950s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.951s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.952s] running build
+[0.952s] running build_py
+[0.952s] running install
+[0.952s] running install_lib
+[0.953s] copying /home/kachi/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.953s] copying /home/kachi/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.953s] copying /home/kachi/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.953s] byte-compiling /home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py to talker.cpython-36.pyc
+[0.954s] byte-compiling /home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py to listener.cpython-36.pyc
+[0.954s] running install_data
+[0.954s]   File "/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py", line 1
+[0.955s]     1 import rclpy                     #ROS2のクライアントのためのライブラリ
+[0.955s]            ^
+[0.955s] SyntaxError: invalid syntax
+[0.955s] 
+[0.955s]   File "/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py", line 2
+[0.955s]     1 import rclpy
+[0.955s]            ^
+[0.956s] SyntaxError: invalid syntax
+[0.956s] 
+[0.956s] running install_egg_info
+[0.956s] removing '/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[0.956s] Copying ../../build/mypkg/mypkg.egg-info to /home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.957s] running install_scripts
+[0.973s] Installing talker script to /home/kachi/ros2_ws/install/mypkg/lib/mypkg
+[0.974s] writing list of installed files to '/home/kachi/ros2_ws/build/mypkg/install.log'
+[0.993s] Invoked command in '/home/kachi/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/kachi/ros2_ws/build/mypkg/build install --prefix /home/kachi/ros2_ws/install/mypkg --record /home/kachi/ros2_ws/build/mypkg/install.log --single-version-externally-managed

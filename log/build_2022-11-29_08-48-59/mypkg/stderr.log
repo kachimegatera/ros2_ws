@@ -1,0 +1,5 @@
+  File "/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py", line 2
+    1 import rclpy
+           ^
+SyntaxError: invalid syntax
+

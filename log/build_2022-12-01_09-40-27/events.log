@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000257] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000317] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.000363] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.018521] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.097678] (-) TimerEvent: {}
+[0.198204] (-) TimerEvent: {}
+[0.300174] (-) TimerEvent: {}
+[0.304185] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.305956] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/kachi/ros2_ws/src/person_msgs', '-DCMAKE_INSTALL_PREFIX=/home/kachi/ros2_ws/install/person_msgs'], 'cwd': '/home/kachi/ros2_ws/build/person_msgs', 'env': OrderedDict([('UIM_CANDWIN_PROG', 'uim-candwin-gtk'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kachi'), ('LC_TIME', 'ja_JP.UTF-8'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('WT_PROFILE_ID', '{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}'), ('OLDPWD', '/home/kachi/ros2_ws/src/person_msgs'), ('HOME', '/home/kachi'), ('XIM', 'uim'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'ja_JP.UTF-8'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('COLCON_PREFIX_PATH', '/home/kachi/ros2_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'kachi'), ('GTK_IM_MODULE', 'uim'), ('WSL_INTEROP', '/run/WSL/5500_interop'), ('NAME', 'DESKTOP-LULAFQS'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LC_COLLATE', 'ja_JP.UTF-8'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/kachi takuma/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '21cb296c-b5c9-4936-acd1-09956dd3a7a5'), ('DISPLAY', '172.21.160.1:0'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=uim'), ('AMENT_PREFIX_PATH', '/home/kachi/ros2_ws/install/mypkg:/opt/ros/dashing'), ('LC_MESSAGES', 'ja_JP.UTF-8'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'uim'), ('PWD', '/home/kachi/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.400507] (-) TimerEvent: {}
+[0.501118] (-) TimerEvent: {}
+[0.601610] (-) TimerEvent: {}
+[0.647665] (person_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.701810] (-) TimerEvent: {}
+[0.751195] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/kachi/ros2_ws/build/mypkg/build', 'install', '--prefix', '/home/kachi/ros2_ws/install/mypkg', '--record', '/home/kachi/ros2_ws/build/mypkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/kachi/ros2_ws/src/mypkg', 'env': {'UIM_CANDWIN_PROG': 'uim-candwin-gtk', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kachi', 'LC_TIME': 'ja_JP.UTF-8', 'LD_LIBRARY_PATH': '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '1', 'WT_PROFILE_ID': '{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}', 'OLDPWD': '/home/kachi/ros2_ws/src/person_msgs', 'HOME': '/home/kachi', 'XIM': 'uim', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'ja_JP.UTF-8', 'WSL_DISTRO_NAME': 'Ubuntu-18.04', 'COLCON_PREFIX_PATH': '/home/kachi/ros2_ws/install', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'kachi', 'GTK_IM_MODULE': 'uim', 'WSL_INTEROP': '/run/WSL/5500_interop', 'NAME': 'DESKTOP-LULAFQS', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LC_COLLATE': 'ja_JP.UTF-8', 'PATH': '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/kachi takuma/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'WT_SESSION': '21cb296c-b5c9-4936-acd1-09956dd3a7a5', 'DISPLAY': '172.21.160.1:0', 'LANG': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XMODIFIERS': '@im=uim', 'AMENT_PREFIX_PATH': '/home/kachi/ros2_ws/install/mypkg:/opt/ros/dashing', 'LC_MESSAGES': 'ja_JP.UTF-8', 'LC_NAME': 'ja_JP.UTF-8', 'SHELL': '/bin/bash', 'NO_AT_BRIDGE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'uim', 'PWD': '/home/kachi/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages:/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[0.802133] (-) TimerEvent: {}
+[0.902719] (-) TimerEvent: {}
+[0.985879] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.987846] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.988613] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.989038] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.989301] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.989581] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[1.002867] (-) TimerEvent: {}
+[1.042477] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.043921] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.044164] (mypkg) StdoutLine: {'line': b'running build\n'}
+[1.044304] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[1.044598] (mypkg) StdoutLine: {'line': b'running install\n'}
+[1.044862] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.046091] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[1.046543] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.048736] (mypkg) StdoutLine: {'line': b"removing '/home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[1.049296] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/kachi/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info\n'}
+[1.050011] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.052572] (person_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.078671] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/kachi/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.079201] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/kachi/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.079498] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/kachi/ros2_ws/build/mypkg/install.log'\n"}
+[1.103096] (-) TimerEvent: {}
+[1.108799] (mypkg) CommandEnded: {'returncode': 0}
+[1.129345] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.135065] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.203450] (-) TimerEvent: {}
+[1.304229] (-) TimerEvent: {}
+[1.347981] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.351171] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.404466] (-) TimerEvent: {}
+[1.491882] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.499043] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.504618] (-) TimerEvent: {}
+[1.605018] (-) TimerEvent: {}
+[1.705663] (-) TimerEvent: {}
+[1.806183] (-) TimerEvent: {}
+[1.906664] (-) TimerEvent: {}
+[1.927617] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.934186] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.006836] (-) TimerEvent: {}
+[2.078999] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.079547] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.107031] (-) TimerEvent: {}
+[2.207542] (-) TimerEvent: {}
+[2.227019] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.231014] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.307764] (-) TimerEvent: {}
+[2.408492] (-) TimerEvent: {}
+[2.509064] (-) TimerEvent: {}
+[2.609638] (-) TimerEvent: {}
+[2.710263] (-) TimerEvent: {}
+[2.810997] (-) TimerEvent: {}
+[2.903794] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.911129] (-) TimerEvent: {}
+[2.912292] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[2.946827] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[2.947504] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.011437] (-) TimerEvent: {}
+[3.111946] (-) TimerEvent: {}
+[3.178941] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[3.212091] (-) TimerEvent: {}
+[3.312590] (-) TimerEvent: {}
+[3.413146] (-) TimerEvent: {}
+[3.513625] (-) TimerEvent: {}
+[3.614258] (-) TimerEvent: {}
+[3.714856] (-) TimerEvent: {}
+[3.815445] (-) TimerEvent: {}
+[3.916173] (-) TimerEvent: {}
+[4.016762] (-) TimerEvent: {}
+[4.117261] (-) TimerEvent: {}
+[4.217891] (-) TimerEvent: {}
+[4.318554] (-) TimerEvent: {}
+[4.419242] (-) TimerEvent: {}
+[4.519795] (-) TimerEvent: {}
+[4.620409] (-) TimerEvent: {}
+[4.661189] (person_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[4.720671] (-) TimerEvent: {}
+[4.821218] (-) TimerEvent: {}
+[4.921825] (-) TimerEvent: {}
+[5.022306] (-) TimerEvent: {}
+[5.122853] (-) TimerEvent: {}
+[5.223635] (-) TimerEvent: {}
+[5.324190] (-) TimerEvent: {}
+[5.424696] (-) TimerEvent: {}
+[5.525358] (-) TimerEvent: {}
+[5.625928] (-) TimerEvent: {}
+[5.726510] (-) TimerEvent: {}
+[5.827124] (-) TimerEvent: {}
+[5.927864] (-) TimerEvent: {}
+[6.028505] (-) TimerEvent: {}
+[6.129148] (-) TimerEvent: {}
+[6.229798] (-) TimerEvent: {}
+[6.330475] (-) TimerEvent: {}
+[6.430957] (-) TimerEvent: {}
+[6.531478] (-) TimerEvent: {}
+[6.535253] (person_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[6.559632] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[6.631759] (-) TimerEvent: {}
+[6.733814] (-) TimerEvent: {}
+[6.834534] (-) TimerEvent: {}
+[6.935063] (-) TimerEvent: {}
+[7.035550] (-) TimerEvent: {}
+[7.136199] (-) TimerEvent: {}
+[7.236850] (-) TimerEvent: {}
+[7.337602] (-) TimerEvent: {}
+[7.438196] (-) TimerEvent: {}
+[7.538837] (-) TimerEvent: {}
+[7.639457] (-) TimerEvent: {}
+[7.740136] (-) TimerEvent: {}
+[7.840642] (-) TimerEvent: {}
+[7.941267] (-) TimerEvent: {}
+[8.041870] (-) TimerEvent: {}
+[8.142536] (-) TimerEvent: {}
+[8.243363] (-) TimerEvent: {}
+[8.344035] (-) TimerEvent: {}
+[8.444753] (-) TimerEvent: {}
+[8.545454] (-) TimerEvent: {}
+[8.645985] (-) TimerEvent: {}
+[8.746625] (-) TimerEvent: {}
+[8.847146] (-) TimerEvent: {}
+[8.868095] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[8.947392] (-) TimerEvent: {}
+[8.977962] (person_msgs) StderrLine: {'line': b"Error parsing '/home/kachi/ros2_ws/src/person_msgs/package.xml':\n"}
+[9.047529] (-) TimerEvent: {}
+[9.060565] (person_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[9.060774] (person_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[9.060838] (person_msgs) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[9.060896] (person_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.6/xml/dom/minidom.py", line 1968, in parseString\n'}
+[9.060951] (person_msgs) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[9.061006] (person_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[9.061083] (person_msgs) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[9.061166] (person_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[9.061229] (person_msgs) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[9.061290] (person_msgs) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 13, column 43\n'}
+[9.061351] (person_msgs) StderrLine: {'line': b'\n'}
+[9.061411] (person_msgs) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[9.061472] (person_msgs) StderrLine: {'line': b'\n'}
+[9.061533] (person_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[9.061593] (person_msgs) StderrLine: {'line': b'  File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[9.061659] (person_msgs) StderrLine: {'line': b'    main()\n'}
+[9.061719] (person_msgs) StderrLine: {'line': b'  File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[9.061781] (person_msgs) StderrLine: {'line': b'    raise e\n'}
+[9.061844] (person_msgs) StderrLine: {'line': b'  File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[9.061905] (person_msgs) StderrLine: {'line': b'    args.package_xml.read(), filename=args.package_xml.name)\n'}
+[9.061971] (person_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[9.062023] (person_msgs) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[9.062077] (person_msgs) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/kachi/ros2_ws/src/person_msgs/package.xml':\n"}
+[9.062159] (person_msgs) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[9.062211] (person_msgs) StderrLine: {'line': b'mismatched tag: line 13, column 43\n'}
+[9.075275] (person_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[9.075562] (person_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[9.075657] (person_msgs) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[9.075741] (person_msgs) StderrLine: {'line': b'  /home/kachi/ros2_ws/src/person_msgs/package.xml\n'}
+[9.075823] (person_msgs) StderrLine: {'line': b'  /home/kachi/ros2_ws/build/person_msgs/ament_cmake_core/package.cmake)\n'}
+[9.075905] (person_msgs) StderrLine: {'line': b'  returned error code 1\n'}
+[9.075985] (person_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.076072] (person_msgs) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[9.076176] (person_msgs) StderrLine: {'line': b'  /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[9.076262] (person_msgs) StderrLine: {'line': b'  CMakeLists.txt:21 (rosidl_generate_interfaces)\n'}
+[9.076344] (person_msgs) StderrLine: {'line': b'\n'}
+[9.076425] (person_msgs) StderrLine: {'line': b'\n'}
+[9.076815] (person_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.076980] (person_msgs) StdoutLine: {'line': b'See also "/home/kachi/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[9.083549] (person_msgs) CommandEnded: {'returncode': 1}
+[9.084581] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 1}
+[9.095995] (-) EventReactorShutdown: {}

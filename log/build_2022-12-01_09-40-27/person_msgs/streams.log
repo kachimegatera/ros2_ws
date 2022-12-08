@@ -1,0 +1,64 @@
+[0.295s] Invoking command in '/home/kachi/ros2_ws/build/person_msgs': /usr/bin/cmake /home/kachi/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/kachi/ros2_ws/install/person_msgs
+[0.629s] -- The C compiler identification is GNU 7.5.0
+[1.034s] -- The CXX compiler identification is GNU 7.5.0
+[1.117s] -- Check for working C compiler: /usr/bin/cc
+[1.330s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.333s] -- Detecting C compiler ABI info
+[1.473s] -- Detecting C compiler ABI info - done
+[1.481s] -- Detecting C compile features
+[1.909s] -- Detecting C compile features - done
+[1.916s] -- Check for working CXX compiler: /usr/bin/c++
+[2.061s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.061s] -- Detecting CXX compiler ABI info
+[2.209s] -- Detecting CXX compiler ABI info - done
+[2.213s] -- Detecting CXX compile features
+[2.885s] -- Detecting CXX compile features - done
+[2.894s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.929s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.929s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.161s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[4.643s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[6.517s] -- Found FastRTPS: /opt/ros/dashing/include  
+[6.541s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[8.850s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[8.960s] Error parsing '/home/kachi/ros2_ws/src/person_msgs/package.xml':
+[9.042s] Traceback (most recent call last):
+[9.042s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[9.042s]     root = dom.parseString(data)
+[9.042s]   File "/usr/lib/python3.6/xml/dom/minidom.py", line 1968, in parseString
+[9.042s]     return expatbuilder.parseString(string)
+[9.042s]   File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 925, in parseString
+[9.043s]     return builder.parseString(string)
+[9.043s]   File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 223, in parseString
+[9.043s]     parser.Parse(string, True)
+[9.043s] xml.parsers.expat.ExpatError: mismatched tag: line 13, column 43
+[9.043s] 
+[9.043s] During handling of the above exception, another exception occurred:
+[9.043s] 
+[9.043s] Traceback (most recent call last):
+[9.043s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[9.043s]     main()
+[9.043s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[9.043s]     raise e
+[9.043s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[9.043s]     args.package_xml.read(), filename=args.package_xml.name)
+[9.043s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[9.043s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[9.044s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/kachi/ros2_ws/src/person_msgs/package.xml':
+[9.044s] The manifest contains invalid XML:
+[9.044s] mismatched tag: line 13, column 43
+[9.057s] CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[9.057s]   execute_process(/usr/bin/python3
+[9.057s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[9.057s]   /home/kachi/ros2_ws/src/person_msgs/package.xml
+[9.057s]   /home/kachi/ros2_ws/build/person_msgs/ament_cmake_core/package.cmake)
+[9.057s]   returned error code 1
+[9.057s] Call Stack (most recent call first):
+[9.058s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[9.058s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[9.058s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[9.058s] 
+[9.058s] 
+[9.058s] -- Configuring incomplete, errors occurred!
+[9.058s] See also "/home/kachi/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[9.065s] Invoked command in '/home/kachi/ros2_ws/build/person_msgs' returned '1': /usr/bin/cmake /home/kachi/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/kachi/ros2_ws/install/person_msgs

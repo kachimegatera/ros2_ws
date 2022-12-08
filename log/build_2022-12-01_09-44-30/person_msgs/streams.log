@@ -1,0 +1,48 @@
+[0.306s] Invoking command in '/home/kachi/ros2_ws/build/person_msgs': /usr/bin/cmake /home/kachi/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/kachi/ros2_ws/install/person_msgs
+[0.319s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.349s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.349s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.531s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[3.373s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[5.893s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[6.008s] Error parsing '/home/kachi/ros2_ws/src/person_msgs/package.xml':
+[6.064s] Traceback (most recent call last):
+[6.064s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[6.064s]     root = dom.parseString(data)
+[6.064s]   File "/usr/lib/python3.6/xml/dom/minidom.py", line 1968, in parseString
+[6.064s]     return expatbuilder.parseString(string)
+[6.064s]   File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 925, in parseString
+[6.064s]     return builder.parseString(string)
+[6.064s]   File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 223, in parseString
+[6.064s]     parser.Parse(string, True)
+[6.065s] xml.parsers.expat.ExpatError: mismatched tag: line 13, column 43
+[6.065s] 
+[6.065s] During handling of the above exception, another exception occurred:
+[6.065s] 
+[6.065s] Traceback (most recent call last):
+[6.065s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[6.065s]     main()
+[6.065s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[6.065s]     raise e
+[6.065s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[6.065s]     args.package_xml.read(), filename=args.package_xml.name)
+[6.065s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[6.065s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[6.065s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/kachi/ros2_ws/src/person_msgs/package.xml':
+[6.065s] The manifest contains invalid XML:
+[6.066s] mismatched tag: line 13, column 43
+[6.078s] CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[6.078s]   execute_process(/usr/bin/python3
+[6.078s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[6.079s]   /home/kachi/ros2_ws/src/person_msgs/package.xml
+[6.079s]   /home/kachi/ros2_ws/build/person_msgs/ament_cmake_core/package.cmake)
+[6.079s]   returned error code 1
+[6.079s] Call Stack (most recent call first):
+[6.079s]   /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[6.079s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[6.079s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[6.079s] 
+[6.079s] 
+[6.080s] -- Configuring incomplete, errors occurred!
+[6.080s] See also "/home/kachi/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[6.083s] Invoked command in '/home/kachi/ros2_ws/build/person_msgs' returned '1': /usr/bin/cmake /home/kachi/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/kachi/ros2_ws/install/person_msgs
